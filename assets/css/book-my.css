@@ -1,0 +1,41 @@
+#book-my {
+    height: 300px;
+    position: relative;
+}
+
+#book-my .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#book-my h3 {
+    font-size: 2.85rem;
+    line-height: 3.4rem;
+    color: #fff;
+    line-height: 300px;
+}
+
+#book-my .btn-banner {
+    background-image: linear-gradient(to right, #e42564 0%, #fa6259 51%, #e42564 100%);
+}
+
+#book-my .btn-banner {
+    padding: 12px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    line-height: 300px;
+}
+
+#book-my .btn-banner:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}

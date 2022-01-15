@@ -1,0 +1,101 @@
+#review-part {
+    padding: 140px 0px;
+    position: relative;
+}
+
+#review-part .heading h5 {
+    font-size: 1.80rem;
+    line-height: 2.5rem;
+    font-weight: 500;
+    background: linear-gradient(to right, #ec606c, #ee6362, #ee6757, #ed6c4d, #eb7242);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0px 0px 10px;
+}
+
+
+.slider {
+    position: relative;
+    z-index: 200;
+    padding: 0 0px;
+    margin: 5rem auto;
+    width: 100%;
+    cursor: w-resize;
+}
+
+
+
+
+
+.item.slick-slide {
+    padding: 130px 90px 120px;
+    width: 600px;
+    height: 400px !important;
+    transition: transform .4s;
+    position: relative;
+    background: #F8F8F8;
+    opacity: 0.5;
+}
+
+.item.slick-slide p,h6 {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #525252;
+}
+
+
+.slick-slide:after {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: transform .4s;
+}
+
+.item.slick-slide {
+    transform: scale(0.7) translate(640px);
+}
+
+.item.slick-slide.slick-center+.slick-slide {
+    transform: scale(0.8) translate(-250px);
+    z-index: 10;
+}
+
+.item.slick-slide.slick-center+.slick-slide+.item.slick-slide {
+    transform: scale(0.7) translate(-640px);
+    z-index: 5;
+}
+
+.item.slick-slide.slick-active {
+    transform: scale(0.8) translate(250px);
+}
+
+.item.slick-slide.slick-center {
+    /* margin: 0 -10%; */
+    transform: scale(1);
+    z-index: 30;
+    background: #F8F8F8; 
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2)  ; 
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2)  ; 
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.2)  ; 
+    opacity: 1;
+}
+
+.item.slick-slide.slick-center h6 {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 2.5rem;
+    font-weight: 500;
+    background: linear-gradient(to right, #556fff, #556fff, #e05fc4, #f767a6, #ff798e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0px 0px 20px;
+}
+
+.slick-center:after {
+    opacity: 0;
+}

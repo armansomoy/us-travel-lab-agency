@@ -1,0 +1,60 @@
+#banner-part {
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -11;
+}
+
+#banner-part h4 {
+  padding: 350px 0px 0px;
+  font-size: 1.80rem;
+  line-height: 2.5rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+#banner-part h2 {
+  font-size: 3.9rem;
+  line-height: 4.2rem;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: -1px;
+  padding-bottom: 10px;
+}
+
+#banner-part p {
+  font-size: 15px;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 400;
+  margin: 0px 0px;
+}
+
+#banner-part .btn-banner {
+  background-image: linear-gradient(to right, #e42564 0%, #fa6259 51%, #e42564 100%);
+}
+
+#banner-part .btn-banner {
+  margin: 0px 0px 0px 0px;
+  padding: 16px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 500;
+  border: 2px solid transparent;
+}
+
+#banner-part .btn-banner:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=banner.css.map */

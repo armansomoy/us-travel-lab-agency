@@ -1,0 +1,25 @@
+#confirmation-part {
+    margin: 20px 215px 0px;
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    padding: 25px 30px;
+}
+
+#confirmation-part .number-box {
+    background: #313131;
+    color: #fff;
+    border-radius: 50%;
+    width: 37.5px;
+    height: 37.5px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 8px;
+    margin-right: 7.5px;
+}
+
+#confirmation-part h4 {
+    font-size: 22px;
+    color: #313131;
+    padding: 6px 10px;
+    font-weight: 400;
+}

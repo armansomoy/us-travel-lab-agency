@@ -1,0 +1,66 @@
+#testing-service {
+  padding: 20px 0px 70px;
+  position: relative;
+  border-bottom: 1px solid #8080802b;;
+}
+
+#testing-service h3 {
+  padding: 0px 0px 25px;
+  color: #374162;
+  font-size: 2.30rem;
+  line-height: 3rem;
+}
+
+#testing-service .text-box {
+  padding: 160px 20px 20px;
+  text-align: center;
+  position: relative;
+}
+
+#testing-service::after {
+  content: " ";
+  height: 2px;
+  width: 89%;
+  background-color: #8080802b;
+  top: 49%;
+  left: 6%;
+  z-index: -1;
+  position: absolute;
+}
+
+#testing-service .text-box .number-box h5 {
+  font-size: 20px;
+  line-height: 50px;
+}
+
+#testing-service .text-box .number-box {
+  height: 70px;
+  width: 70px;
+  background-image: linear-gradient(to right top, #ec606c, #ee6362, #ee6757, #ed6c4d, #eb7242);
+  line-height: 55px;
+  border-radius: 50%;
+  border: 8px solid #fcd7ca;
+  color: #fff;
+  position: absolute;
+  top: 50px;
+  left: 90px;
+  transition: transform .2s;
+}
+
+#testing-service .text-box:hover .number-box {
+  transform: scale(1.1);
+}
+
+#testing-service .text-box h6 {
+  font-size: 15px;
+  line-height: 25px;
+  color: #374162;
+}
+
+#testing-service .text-box p {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #828282;
+  padding: 0px 3px;
+}

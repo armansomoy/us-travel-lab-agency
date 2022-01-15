@@ -1,0 +1,48 @@
+#clinic-part {
+    padding: 150px 0px;
+}
+
+#clinic-part .text-part {
+    margin-left: 70px;
+}
+
+#clinic-part h6 {
+    font-size: 15px;
+    font-weight: 600;
+    background: linear-gradient(to right, #ec606c, #ee6362, #ee6757, #ed6c4d, #eb7242);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#clinic-part h4 {
+    font-size: 2.30rem;
+    line-height: 3rem;
+    color: #374162;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+#clinic-part p {
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 35px;
+}
+
+#clinic-part a {
+    border: 2px solid #374162;
+    color: #ffffff;
+    padding: 12px 32px;
+    border-radius: 4px;
+    font-weight: 600;
+    position: relative;
+    background: #374162;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#clinic-part a:hover {
+    color: #000;
+}
+
